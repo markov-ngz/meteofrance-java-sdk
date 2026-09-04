@@ -1,0 +1,1520 @@
+<wcs:Capabilities xmlns:wcs="http://www.opengis.net/wcs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:sld="http://www.opengis.net/sld" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0.1" xsi:schemaLocation="     http://www.opengis.net/ows/2.0 http://schemas.opengis.net/ows/2.0/owsAll.xsd     http://www.opengis.net/wcs/2.0 http://schemas.opengis.net/wcs/2.0/wcsAll.xsd     http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd     http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd      http://inspire.ec.europa.eu/schemas/common/1.0 http://inspire.ec.europa.eu/schemas/common/1.0/common.xsd">
+  <ows:ServiceIdentification>
+    <ows:Title>Download service (WCS) for the WW3 wave model for Guyane.  </ows:Title>
+    <ows:Abstract>The service allows you to download the WW3 model coupled with AROME. 0.002 degree resolution over Guyane.</ows:Abstract>
+    <ows:ServiceType>WCS</ows:ServiceType>
+    <ows:ServiceTypeVersion>2.0.1</ows:ServiceTypeVersion>
+    <ows:Profile>
+            http://www.opengis.net/spec/WCS/2.0/conf/core
+        </ows:Profile>
+    <ows:Profile>
+            http://www.opengis.net/spec/GMLCOV_geotiff-coverages/1.0/conf/geotiff-coverage
+        </ows:Profile>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>NMC FRANCE – Météo-France</ows:ProviderName>
+    <ows:ServiceContact>
+      <ows:ContactInfo>
+        <ows:Address>
+          <ows:ElectronicMailAddress>support.inspire@meteo.fr</ows:ElectronicMailAddress>
+        </ows:Address>
+      </ows:ContactInfo>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://public-api.meteofrance.fr/public/wavesmodels/wcs/MF-NWP-HIGHRES-WW3ARO-GUY-0002-WCS/GetCapabilities"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="DescribeCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://public-api.meteofrance.fr/public/wavesmodels/wcs/MF-NWP-HIGHRES-WW3ARO-GUY-0002-WCS/DescribeCoverage"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="GetCoverage">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://public-api.meteofrance.fr/public/wavesmodels/wcs/MF-NWP-HIGHRES-WW3ARO-GUY-0002-WCS/GetCoverage"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <wcs:ServiceMetadata>
+    <wcs:formatSupported>image/tiff</wcs:formatSupported>
+    <wcs:formatSupported>application/wmo-grib</wcs:formatSupported>
+    <wcs:Extension>
+      <inspire_vs:ExtendedCapabilities>
+        <inspire_common:MetadataUrl>
+          <inspire_common:URL>https://public-api.meteofrance.fr/public/wavesmodels/wcs/MF-NWP-HIGHRES-WW3ARO-GUY-0002-WCS/GetMetadata</inspire_common:URL>
+          <inspire_common:MediaType>application/vnd.iso.19139+xml</inspire_common:MediaType>
+        </inspire_common:MetadataUrl>
+        <inspire_common:SupportedLanguages>
+          <inspire_common:DefaultLanguage>
+            <inspire_common:Language>eng</inspire_common:Language>
+          </inspire_common:DefaultLanguage>
+          <inspire_common:SupportedLanguage>
+            <inspire_common:Language>fre</inspire_common:Language>
+          </inspire_common:SupportedLanguage>
+          <inspire_common:SupportedLanguage>
+            <inspire_common:Language>eng</inspire_common:Language>
+          </inspire_common:SupportedLanguage>
+        </inspire_common:SupportedLanguages>
+        <inspire_common:ResponseLanguage>
+          <inspire_common:Language>eng</inspire_common:Language>
+        </inspire_common:ResponseLanguage>
+      </inspire_vs:ExtendedCapabilities>
+    </wcs:Extension>
+  </wcs:ServiceMetadata>
+  <wcs:Contents>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the primary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean direction of the secondary swell</ows:Title>
+      <wcs:CoverageId>MEAN_DIRECTION_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of wind waves</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_WIND_WAVES__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of primary swell</ows:Title>
+      <wcs:CoverageId>PRIMARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of secondary swell</ows:Title>
+      <wcs:CoverageId>SECONDARY_WAVE_MEAN_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of  wind waves</ows:Title>
+      <wcs:CoverageId>WIND_WAVES_MEAN_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Direction of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>DIRECTION_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Mean period of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>MEAN_PERIOD_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak wave period</ows:Title>
+      <wcs:CoverageId>TOTAL_PEAK_WAVE_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the primary swell. This corresponds to the maximum energy of the spectrum.</ows:Title>
+      <wcs:CoverageId>PEAK_PRIMARY_SWELL_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the secondary swell. This corresponds to the maximum energy of the secondary swell.</ows:Title>
+      <wcs:CoverageId>PEAK_SECONDARY_SWELL_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Peak period of the wind waves</ows:Title>
+      <wcs:CoverageId>PEAK_WIND_WAVES_PERIOD__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the primary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_PRIMARY_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the secondary swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_THE_SECONDARY_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of the total swell: primary swell + secondary</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_SWELL_WAVES__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of wind waves</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_WIND_WAVES__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-21T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-22T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-23T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T06.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T12.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-24T18.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+    <wcs:CoverageSummary>
+      <ows:Title>Significant height of combined wind waves and swell</ows:Title>
+      <wcs:CoverageId>SIGNIFICANT_HEIGHT_OF_COMBINED_WIND_WAVES_AND_SWELL__WATER_SURFACE___2026-05-25T00.00.00Z</wcs:CoverageId>
+      <wcs:CoverageSubtype>ReferenceableGridCoverage</wcs:CoverageSubtype>
+    </wcs:CoverageSummary>
+  </wcs:Contents>
+</wcs:Capabilities>

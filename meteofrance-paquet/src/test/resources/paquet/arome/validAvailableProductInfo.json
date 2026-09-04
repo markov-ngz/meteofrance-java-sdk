@@ -1,0 +1,49 @@
+{
+  "title": "Réseau du 2026-06-10 à 00:00:00 UTC pour le modèle AROME-OM-NCALED 0.025",
+  "description": "Liste des échéances et formats des paquets disponibles au téléchargement pour le réseau du 2026-06-10 à 00:00:00 UTC.",
+  "attribution": "Source : Météo-France",
+  "links": [
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetAROME-OM/models/AROME-OM-NCALED/grids/0.025/packages/HP1?&referencetime=2026-06-10T00:00:00Z",
+      "rel": "self",
+      "type": "application/json",
+      "title": "Ce document"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetAROME-OM/models/AROME-OM-NCALED/grids/0.025/packages/HP1/productOMNC?&referencetime=2026-06-10T00:00:00Z&time=000H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 000H du réseau du 2026-06-10 à 00:00:00 UTC au format grib2",
+      "reference_time": "2026-06-10T00:00:00Z",
+      "time": "000H",
+      "insert_time": "2026-06-10T06:23:55Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetAROME-OM/models/AROME-OM-NCALED/grids/0.025/packages/HP1/productOMNC?&referencetime=2026-06-10T00:00:00Z&time=001H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 001H du réseau du 2026-06-10 à 00:00:00 UTC au format grib2",
+      "reference_time": "2026-06-10T00:00:00Z",
+      "time": "001H",
+      "insert_time": "2026-06-10T06:25:04Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetAROME-OM/models/AROME-OM-NCALED/grids/0.025/packages/HP1/productOMNC?&referencetime=2026-06-10T00:00:00Z&time=002H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 002H du réseau du 2026-06-10 à 00:00:00 UTC au format grib2",
+      "reference_time": "2026-06-10T00:00:00Z",
+      "time": "002H",
+      "insert_time": "2026-06-10T06:26:01Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetAROME-OM/models/AROME-OM-NCALED/grids/0.025/packages/HP1/productOMNC?&referencetime=2026-06-10T00:00:00Z&time=003H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 003H du réseau du 2026-06-10 à 00:00:00 UTC au format grib2",
+      "reference_time": "2026-06-10T00:00:00Z",
+      "time": "003H",
+      "insert_time": "2026-06-10T06:26:40Z"
+    }
+  ]
+}

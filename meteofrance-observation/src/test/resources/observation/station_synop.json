@@ -1,0 +1,65 @@
+[
+    {
+        "lat": 43.36,
+        "lon": 7.83,
+        "geo_id_wmo": "6100001",
+        "geo_id_wigos": "0-22000-16-6100001",
+        "name": "BOUEE_AZUR"
+    },
+    {
+        "lat": 42.06,
+        "lon": 4.66,
+        "geo_id_wmo": "6100002",
+        "geo_id_wigos": "0-22000-17-6100002",
+        "name": "BOUEE_LION"
+    },
+    {
+        "lat": 41.76,
+        "lon": 7.6,
+        "geo_id_wmo": "6101031",
+        "geo_id_wigos": "0-22000-1-6101031",
+        "name": "BOUEE_AJACCIO"
+    },
+    {
+        "lat": 41.61,
+        "lon": 10.19,
+        "geo_id_wmo": "6101032",
+        "geo_id_wigos": "0-22000-0-6101032",
+        "name": "BOUEE_VECCHIO"
+    },
+    {
+        "lat": 42.82,
+        "lon": 8.42,
+        "geo_id_wmo": "6101033",
+        "geo_id_wigos": "0-22000-0-6101033",
+        "name": "BOUEE_CALVI"
+    },
+    {
+        "lat": 41.57,
+        "lon": 5.5,
+        "geo_id_wmo": "6101034",
+        "geo_id_wigos": "0-22000-0-6101034",
+        "name": "BOUEE_PROVENCE"
+    },
+    {
+        "lat": 40.49,
+        "lon": 6.72,
+        "geo_id_wmo": "6101035",
+        "geo_id_wigos": "0-22000-0-6101035",
+        "name": "BOUEE_SARDAIGNE"
+    },
+    {
+        "lat": 42.34,
+        "lon": 6.7,
+        "geo_id_wmo": "6101036",
+        "geo_id_wigos": "0-22000-0-6101036",
+        "name": "BOUEE_PACA"
+    },
+    {
+        "lat": 45.24,
+        "lon": -4.99,
+        "geo_id_wmo": "6200001",
+        "geo_id_wigos": "0-22000-1-6200001",
+        "name": "BOUEE_GASCOGNE"
+    }
+]

@@ -1,0 +1,490 @@
+{
+  "title": "Réseau du 2026-06-11 à 18:00:00 UTC pour le modèle HYCOM2D-WARO 0.04",
+  "description": "Liste des échéances et formats des paquets disponibles au téléchargement pour le réseau du 2026-06-11 à 18:00:00 UTC.",
+  "attribution": "Source : Météo-France",
+  "links": [
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1?&referencetime=2026-06-11T18:00:00Z",
+      "rel": "self",
+      "type": "application/json",
+      "title": "Ce document"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=000H999H&format=txt",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 000H999H du réseau du 2026-06-11 à 18:00:00 UTC au format txt",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "000H999H",
+      "insert_time": "2026-06-11T23:12:07Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=000H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 000H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "000H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=001H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 001H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "001H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=002H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 002H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "002H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=003H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 003H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "003H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=004H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 004H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "004H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=005H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 005H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "005H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=006H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 006H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "006H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=007H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 007H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "007H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=008H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 008H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "008H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=009H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 009H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "009H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=010H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 010H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "010H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=011H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 011H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "011H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=012H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 012H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "012H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=013H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 013H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "013H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=014H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 014H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "014H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=015H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 015H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "015H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=016H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 016H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "016H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=017H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 017H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "017H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=018H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 018H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "018H",
+      "insert_time": "2026-06-11T23:18:16Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=019H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 019H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "019H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=020H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 020H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "020H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=021H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 021H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "021H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=022H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 022H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "022H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=023H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 023H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "023H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=024H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 024H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "024H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=025H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 025H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "025H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=026H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 026H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "026H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=027H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 027H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "027H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=028H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 028H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "028H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=029H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 029H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "029H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=030H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 030H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "030H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=031H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 031H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "031H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=032H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 032H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "032H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=033H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 033H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "033H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=034H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 034H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "034H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=035H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 035H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "035H",
+      "insert_time": "2026-06-11T23:18:17Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=036H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 036H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "036H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=037H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 037H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "037H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=038H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 038H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "038H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=039H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 039H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "039H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=040H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 040H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "040H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=041H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 041H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "041H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=042H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 042H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "042H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=043H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 043H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "043H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=044H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 044H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "044H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=045H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 045H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "045H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=046H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 046H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "046H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=047H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 047H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "047H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=048H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 048H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "048H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=049H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 049H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "049H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=050H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 050H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "050H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    },
+    {
+      "href": "https://public-api.meteofrance.fr/previnum/DPPaquetWAVESMODELS/models/HYCOM2D-WARO/grids/0.04/packages/SP1/productHWARO?&referencetime=2026-06-11T18:00:00Z&time=051H&format=grib2",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/data",
+      "type": "application/octet-stream",
+      "title": "Échéance 051H du réseau du 2026-06-11 à 18:00:00 UTC au format grib2",
+      "reference_time": "2026-06-11T18:00:00Z",
+      "time": "051H",
+      "insert_time": "2026-06-11T23:18:18Z"
+    }
+  ]
+}
