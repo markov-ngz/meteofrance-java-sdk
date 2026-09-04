@@ -1,0 +1,23 @@
+name: New release deployed
+
+permissions:
+  contents: write
+  packages: write
+  id-token: write
+  pages: write
+
+on:
+  release:
+    types:
+      - published
+jobs:
+
+  call-publish-library:
+    uses: ./.github/workflows/_publish-library.yaml
+    with:
+      working-directory: "."
+
+  javadoc:
+    uses: ./.github/workflows/_javadoc-pages.yaml
+    with:
+      working-directory: "."

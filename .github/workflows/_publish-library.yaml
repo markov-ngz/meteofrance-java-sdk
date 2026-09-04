@@ -1,0 +1,61 @@
+name: Publish package to GitHub Packages
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+on:
+  workflow_call:
+    inputs:
+      working-directory:
+        description: "Folder of the library to publish"
+        required: true
+        type: string
+      package-version:
+        description: "Explicit package version (defaults to git tag without 'v')"
+        required: false
+        type: string
+  workflow_dispatch:
+    inputs:
+      working-directory:
+        description: "Folder of the library to publish"
+        required: true
+        type: string
+      package-version:
+        description: "Explicit package version (e.g., 1.0.0)"
+        required: false
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          java-version: "21"
+          distribution: "temurin"
+          cache: "maven"
+          cache-dependency-path: "${{ inputs.working-directory }}/pom.xml"
+          server-id: github
+
+      - name: Set Maven Package Version
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          # Fallback to github.ref_name if package-version input is empty
+          RAW_VERSION="${{ inputs.package-version || github.ref_name }}"
+          
+          # Strip leading 'v' prefix if present (e.g., v1.2.3 -> 1.2.3)
+          VERSION="${RAW_VERSION#v}"
+          
+          echo "Syncing pom.xml version to: ${VERSION}"
+          mvn versions:set -DnewVersion="${VERSION}" -DgenerateBackupPoms=false
+
+      - name: Publish package
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          mvn deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
